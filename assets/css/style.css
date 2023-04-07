@@ -1,0 +1,85 @@
+:root {
+    --mainbkg: white;
+    --hover: teal;
+    --hovertxt: white;
+
+}
+
+
+/* Set default font family and size */
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    font-size: 16px;
+}
+
+/* Style the main header */
+h1 {
+    margin: 0;
+    padding: 0 0 0 0px;
+    text-align: center;
+    font-size: 75px;
+    color: #333;
+}
+
+
+/* Style the navigation buttons */
+.container {
+    border: 2px dotted black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background-color: var(--mainbkg);
+}
+
+button:hover {
+    background-color: var(--hover);
+    opacity: 80%;
+    color: var(--hovertxt);
+    font-weight: bolder;
+}
+
+/* Style the headshot section */
+.headshot {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.headshot h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.headshot img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style the bio section */
+#aboutme {
+    display: flex;
+    margin: 50px auto;
+    max-width: 800px;
+    border: 3px solid black;
+    padding: 15px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+p {
+    padding: 0 0 0 50px;
+}
+
+/* Style the footer */
+footer {
+ border-bottom: 2px dotted black;
+}
