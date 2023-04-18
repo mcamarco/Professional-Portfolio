@@ -1,5 +1,6 @@
+/* TODO: Top Section - name & navigation section */
 :root {
-    --mainbkg: white;
+    --mainbkg: rgba(0, 128, 128, 0.189);
     --hover: teal;
     --hovertxt: white;
 
@@ -9,17 +10,11 @@ nav {
     margin: 0;
     padding: 0 0 0 0px;
     text-align: center;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-bottom: 3px solid black;
   }
 
-/* Set default font family and size */
-body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
-    font-size: 16px;
-}
-
-/* Style the main header */
+  /* --------------------------------------- */
+  /* TODO: Style the headers */
 h1 {
     margin: 0;
     padding: 0 0 0 0px;
@@ -28,14 +23,26 @@ h1 {
     color: #333;
 }
 
+h2, h3 {
+    text-align: center;
+}
 
-/* Style the navigation buttons */
+/* --------------------------------------- */
+/* TODO: Set default font family and size */
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
 
+
+/* --------------------------------------- */
+/* TODO: Style the navigation buttons */
 button {
     margin: 10px;
     padding: 10px;
     border: none;
     background-color: var(--mainbkg);
+    font-size: 15px;
 }
 
 button:hover {
@@ -44,50 +51,3 @@ button:hover {
     color: var(--hovertxt);
     font-weight: bolder;
 }
-
-/* Style the headshot section */
-.headshot {
-    margin: 50px auto;
-    text-align: center;
-}
-
-.headshot h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-.headshot img {
-    max-width: 100%;
-    height: auto;
-}
-
-/* Style the bio section */
-#aboutme {
-    display: flex;
-    margin: 50px auto;
-    max-width: 800px;
-    padding: 15px;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-}
-
-
-p {
-    padding: 0 0 0 50px;
-}
-
-#home.bio {
-
-        margin: 0;
-        padding: 0 0 0 0px;
-        text-align: center;
-font-size: 15px;
-
-}
-
-
-
-/* ------------------ */
-

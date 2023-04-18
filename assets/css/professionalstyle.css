@@ -1,0 +1,14 @@
+/* Align two sections PS & Skills split with History and Education, BOTTOM/FOOTER is Certifications etc  */
+.leftside, .rightside {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+    margin: 1%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
